@@ -88,8 +88,8 @@ const EventDetials = () => {
               <Icon icon="mdi:web" width="25px" />
             </div>
             <div className="text-blue-500 underline">
-              <a href="https://weerodigital.com" target="_blank">
-                Weerodigital.com
+              <a href="/" target="_blank">
+                edulearn.com
               </a>
             </div>
           </div>
