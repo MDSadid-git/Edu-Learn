@@ -1,13 +1,10 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import whiteLogo from "../../Assist/logo/logoWhitepng.png";
+import whiteLogo from "../../Assist/logo/logoWhite.svg";
 const Footer = () => {
   return (
-    <div
-      className="bg-brand mt-20 lg:p-24 p-5 text-gray-200"
-
-    >
-      <div className=" md:max-w-screen-xl">
+    <div className="bg-brand mt-20 lg:p-24 p-5 text-gray-200 ">
+      <div className=" md:max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1  lg:grid-cols-4 gap-7">
           <div className=" ">
             <img src={whiteLogo} alt="" className="w-36 h-auto mb-3" />
@@ -57,7 +54,7 @@ const Footer = () => {
                 icon="material-symbols:mail-outline-rounded"
                 className="text-gray-200 font-bold mr-2"
               />
-              weeerodigital@gmail.com
+              EDULearn@gmail.com
             </p>
           </div>
           <div className=" ">
