@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
         <hr className="mt-10" />
         <p className="mt-5 text-center">
-          &copy; 2023 All Rights Reserved by Weero Digital
+          &copy; 2023 All Rights Reserved by EDULearn
         </p>
       </div>
     </div>
