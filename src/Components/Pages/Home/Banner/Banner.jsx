@@ -35,7 +35,7 @@ export default function App() {
               <div className="flex items-center">
                 <div className="md:max-w-3xl mx-auto px-5 md:px-0">
                   <h1 className="text-brand2 font-bold lg:text-5xl md:text-3xl sm:text-xl tracking-wide leading-tight text-center md:text-start">
-                    Weero Edu, Anywhere <br /> Explore yourself
+                    Edu Learn, Anywhere <br /> Explore yourself
                   </h1>
                   <p className="my-2 text-gray-600 text-center md:text-start">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -72,7 +72,7 @@ export default function App() {
               <div className="flex items-center">
                 <div className="max-w-3xl mx-auto">
                   <h1 className="text-brand2 font-bold lg:text-5xl md:text-3xl sm:text-xl tracking-wide leading-tight">
-                    Explore yourself <br /> Weero Edu, Anywhere
+                    Explore yourself <br /> Edu Learn, Anywhere
                   </h1>
                   <p className="my-2 text-gray-600">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
