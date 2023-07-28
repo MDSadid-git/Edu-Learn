@@ -1,0 +1,204 @@
+/*Banner Image Animation  */
+.move-1 {
+  -webkit-animation: move1 5s infinite;
+  animation: move1 5s infinite;
+}
+
+@keyframes move1 {
+  0% {
+    -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+    transform: rotate(-1deg) translate(-2px, -2px);
+  }
+
+  50% {
+    -webkit-transform: rotate(1deg) translate(2px, 2px);
+    transform: rotate(1deg) translate(2px, 2px);
+  }
+
+  100% {
+    -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+    transform: rotate(-1deg) translate(-2px, -2px);
+  }
+}
+
+.move-2 {
+  -webkit-animation: move2 5s infinite;
+  animation: move2 5s infinite;
+}
+
+@keyframes move2 {
+  0% {
+    -webkit-transform: rotate(1deg) translate(2px, 2px);
+    transform: rotate(1deg) translate(2px, 2px);
+  }
+
+  50% {
+    -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+    transform: rotate(-1deg) translate(-2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: rotate(1deg) translate(2px, 2px);
+    transform: rotate(1deg) translate(2px, 2px);
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: transparent !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0eb582 !important;
+  width: 20px !important;
+  height: 6px !important;
+  border-radius: 5px !important;
+}
+
+/* Slick Arrow CSS  */
+.slick-prev,
+.slick-next {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px !important;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: white !important;
+  background: #0eb582 !important;
+}
+
+/* Sub Background */
+.subBackground {
+  background-image: url("./Components/Assist/banner/subBanner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* pagination */
+/* This is all About Pagination start here  */
+
+.pagination,
+.page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* .pagination {
+  margin-top: 128px;
+} */
+
+.btn-nav,
+.btn-page {
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-nav {
+  padding: 8px;
+}
+
+.btn-nav {
+  width: 42px;
+  height: 42px;
+  border: 1.5px solid #273b66;
+  color: #273b66;
+}
+
+.btn-nav:hover,
+.btn-page:hover {
+  background-color: #0eb582;
+  color: #fff;
+}
+
+.btn-page {
+  border: none;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+}
+
+.btn-selected {
+  background-color: #273b66;
+  color: #fff;
+}
+
+/* This is all About Pagination end here  */
+
+/* courses Details area start */
+.label:after {
+  content: "";
+  position: absolute;
+  right: 1em;
+  color: #07ccec;
+  font-size: 25px;
+  font-weight: bold;
+  animation-duration: 0.5s;
+}
+
+.label:hover:after {
+  color: #fff;
+}
+
+input:checked+.label:after {
+  content: "";
+  line-height: 0.8em;
+  font-size: 25px;
+}
+
+.accordion__content {
+  max-height: 0em;
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+input[name="panel"]:checked~.accordion__content {
+  /* Get this as close to what height you expect */
+  max-height: 50em;
+}
+
+/* courses Details area end */
+
+/* Events Details area style start  */
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Events Details area style end */
+
+
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
