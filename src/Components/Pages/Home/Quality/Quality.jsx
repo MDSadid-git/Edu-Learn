@@ -12,7 +12,7 @@ const Quality = () => {
           data-aos-duration="500"
         >
           <img className="p-5" src={quality2} alt="" />
-          <h4 className="pb-5  text-brand text-3xl font-bold">
+          <h4 className="pb-5  text-brand text-2xl font-bold">
             Top Quality Education
           </h4>
           <p className="text-xs text-black/90">
@@ -29,7 +29,7 @@ const Quality = () => {
           data-aos-duration="500"
         >
           <img className="p-5" src={quality1} alt="" />
-          <h4 className="pb-5 font-bold text-brand text-3xl text-center">
+          <h4 className="pb-5 font-bold text-brand text-2xl text-center">
             Learn Everything
           </h4>
           <p className="text-xs text-black/90">
@@ -46,7 +46,7 @@ const Quality = () => {
           data-aos-duration="500"
         >
           <img className="p-5" src={quality3} alt="" />
-          <h4 className="pb-5 text-brand text-3xl font-bold">Get Certified</h4>
+          <h4 className="pb-5 text-brand text-2xl font-bold">Get Certified</h4>
           <p className="text-xs text-black/90">
             Obtaining an official recognition of one's knowledge, skills, and
             abilities through a certification program.
