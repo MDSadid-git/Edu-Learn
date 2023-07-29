@@ -69,21 +69,61 @@ const Serves = () => {
           </div>
           <div className="">
             <div className="grid md:grid-cols-3 sm:grid-cols-1 sm:px-5 gap-x-8 gap-y-16">
+              {/* part 1 area */}
+              <div className="flex flex-col group cursor-pointer items-start">
+                <img
+                  src={service3}
+                  className="rounded-lg group-hover:translate-y-14 duration-500 h-80 w-full"
+                  alt="/"
+                />
+                <p
+                  className="bg-brand group-hover:ml-3 duration-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+            rounded-full uppercase mt-5 z-50"
+                >
+                  CREW LEARNING
+                </p>
+                <a
+                  href="/"
+                  className="text-lg font-bold mt-3 sm:text-xl md:text-2xl text-[#003262]"
+                >
+                  Improving your Skill to the MAX
+                </a>
+                <p className="text-sm text-black">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                </p>
+                <div className="pt-2 pr-0 pb-0 pl-0">
+                  <a
+                    href="/"
+                    className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline"
+                  >
+                    MD Sadid
+                  </a>
+                  <p className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">
+                    · 3rd, May 2023 ·
+                  </p>
+                  <p className="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">
+                    1hr 20min. read
+                  </p>
+                </div>
+              </div>
+              {/* part 2 area */}
               <div className="flex flex-col group cursor-pointer items-start">
                 <img
                   src={service2}
-                  className="rounded-lg sm:group-hover:translate-y-12 duration-500 h-80 w-full "
+                  className="rounded-lg group-hover:translate-y-14 duration-500 h-80 w-full"
                   alt="/"
                 />
                 <p
-                  className="bg-brand flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+                  className="bg-brand group-hover:ml-3 duration-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
             rounded-full uppercase mt-5 z-50"
                 >
                   CREW LEARNING
                 </p>
                 <a
                   href="/"
-                  className="text-lg font-bold sm:text-xl md:text-2xl text-[#003262]"
+                  className="text-lg font-bold mt-3 sm:text-xl md:text-2xl text-[#003262]"
                 >
                   Improving your Skill to the MAX
                 </a>
@@ -107,57 +147,22 @@ const Serves = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col group cursor-pointer items-start ">
-                <img
-                  src={service3}
-                  className="rounded-lg group-hover:translate-y-12 duration-500 h-80 w-full"
-                  alt="/"
-                />
-
-                <p className="bg-brand flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3 rounded-full uppercase mt-5 z-50">
-                  CREW LEARNING
-                </p>
-                <a
-                  href="/"
-                  className="text-lg font-bold sm:text-xl md:text-2xl text-[#003262]"
-                >
-                  Improving your Skill to the MAX
-                </a>
-                <p className="text-sm text-black">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam,
-                </p>
-                <div className="pt-2 pr-0 pb-0 pl-0">
-                  <a
-                    href="/"
-                    className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline"
-                  >
-                    MD Sadid
-                  </a>
-                  <p className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">
-                    · 3rd, May 2023 ·
-                  </p>
-                  <p className="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">
-                    1hr 20min. read
-                  </p>
-                </div>
-              </div>
+              {/* part 3 area */}
               <div className="flex flex-col group cursor-pointer items-start">
                 <img
                   src={service4}
-                  className="rounded-lg group-hover:translate-y-12 duration-500 h-80 w-full"
+                  className="rounded-lg group-hover:translate-y-14 duration-500 h-80 w-full"
                   alt="/"
                 />
                 <p
-                  className="bg-brand flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+                  className="bg-brand group-hover:ml-3 duration-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
             rounded-full uppercase mt-5 z-50"
                 >
                   CREW LEARNING
                 </p>
                 <a
                   href="/"
-                  className="text-lg font-bold sm:text-xl md:text-2xl text-[#003262]"
+                  className="text-lg font-bold mt-3 sm:text-xl md:text-2xl text-[#003262]"
                 >
                   Improving your Skill to the MAX
                 </a>
