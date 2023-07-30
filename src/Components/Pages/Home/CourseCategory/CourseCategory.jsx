@@ -1,15 +1,14 @@
 import React from "react";
 
-
 const CourseCategory = () => {
   return (
     <div className="mx-auto max-w-screen-xl">
       <div className="text-center font-poppins-em py-16 px-5 md:px-0">
-        <h3 className="text-md text-brand font-semibold  pb-5">
+        <h3 className="text-xl text-brand font-semibold  pb-5">
           START LEARNING TODAY
         </h3>
-        <h1 className="text-3xl font-bold  pb-8">Register a Course</h1>
-        <p className="text-xs text-black/90">
+        <h1 className="text-4xl font-bold  pb-8">Register a Course</h1>
+        <p className="text-md text-black/90">
           “The more that you read, the more things you will know.
           <br /> The more that you learn, the more places you'll go.”
         </p>
