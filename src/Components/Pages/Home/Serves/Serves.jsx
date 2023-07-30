@@ -40,7 +40,7 @@ const Serves = () => {
                 </div>
                 <a
                   href="/"
-                  className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl text-brand2"
+                  className="text-3xl font-bold leading-none lg:text-4xl xl:text-5xl text-brand2"
                 >
                   Write anything. Be creative.
                 </a>
