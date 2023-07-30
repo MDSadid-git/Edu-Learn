@@ -35,7 +35,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Lelly Hook
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
@@ -77,7 +77,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Labonno Zen
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
@@ -118,7 +118,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Hooly Rush
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
@@ -159,7 +159,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Willy Pue
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
@@ -200,7 +200,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Mae Sen
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
@@ -241,7 +241,7 @@ const OurTeacher = () => {
                     <h2 className="tracking-widest font-bold text-sm title-font text-brand my-2">
                       Neratum Moe
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-brand2 mb-3">
+                    <h1 className="title-font text-xl font-bold text-brand2 mb-3">
                       The Catalyzer
                     </h1>
                     <p className="leading-relaxed">
