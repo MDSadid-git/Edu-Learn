@@ -106,7 +106,7 @@ const CoursesDetials = () => {
         <div className=" text-brand max-w-5xl mx-auto">
           <div className="flex justify-center items-start gap-3 px-4 mx-auto md:p-8 w-full">
             <div>
-              <h1 className="text-xl font-bold">Course Content</h1>
+              <h1 className="md:text-3xl text-xl font-bold">Course Content</h1>
 
               <div className="accordion flex flex-col items-center justify-center">
                 {/*  Panel 1  */}
