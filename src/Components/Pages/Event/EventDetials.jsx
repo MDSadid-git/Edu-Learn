@@ -116,7 +116,9 @@ const EventDetials = () => {
       <MapWorld />
 
       <div className="p-7 h-72 ">
-        <h1 className="text-3xl font-semibold mb-5 text-brand">More Events </h1>
+        <h1 className="md:text-5xl text-3xl font-semibold mb-5 text-brand">
+          More Events{" "}
+        </h1>
         <>
           <Swiper
             slidesPerView={1}
