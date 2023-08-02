@@ -10,7 +10,7 @@ const Event = () => {
         <div className="bg-[#b4ffff] h-[350px] bg-opacity-70">
           <div className="flex justify-center text-center h-[350px] items-center text-white">
             <div>
-              <h1 className="text-5xl text-brand2 font-bold">
+              <h1 className="md:text-5xl text-3xl text-brand2 font-bold">
                 Find Best Events
               </h1>
               <p className="md:text-lg flex items-center justify-center font-bold p-4 text-brand2 text-base">
