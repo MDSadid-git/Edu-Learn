@@ -12,7 +12,9 @@ const SinglePro = () => {
       <section>
         <div className="relative mx-auto max-w-screen-xl px-4 py-8">
           <div>
-            <h1 className="text-2xl font-bold lg:text-3xl">Best Bag Here!!!</h1>
+            <h1 className="text-2xl font-bold lg:text-5xl my-10">
+              Best Bag Here!!!
+            </h1>
 
             <p className="mt-1 text-sm text-gray-500">SKU: #012345</p>
           </div>
